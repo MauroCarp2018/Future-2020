@@ -365,16 +365,14 @@ footer {
 .go-top-container {
     position: fixed;
     bottom: 4rem;
-    right: 4rem;
-    width: 6.6rem;
-    height: 6.6rem;
+    left: 4rem;
+    width: 6rem;
+    height: 6rem;
     z-index: -1;
 }
 
 .go-top-button {
-    width: 0rem;
-    height: 0rem;
-    background: #2071b2;
+    background: #66afec;
     border-radius: 50%;
     cursor: pointer;
     transition: .2s;
@@ -400,8 +398,8 @@ footer {
 
 .show .go-top-button {
     animation: popup .3s ease-in-out;
-    width: 6.6rem;
-    height: 6.6rem;
+    width: 4rem;
+    height: 4rem;
     z-index: 11;
 }
 
@@ -415,12 +413,12 @@ footer {
         height: 0rem;
     }
     50% {
-        width: 8rem;
-        height: 8rem;
+        width: 6rem;
+        height: 6rem;
     }
     100% {
-        width: 6.6rem;
-        height: 6.6rem;
+        width: 4rem;
+        height: 4rem;
     }
 }
 
